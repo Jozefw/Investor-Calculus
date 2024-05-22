@@ -1,5 +1,6 @@
 import Header from "./components/Header.jsx";
 import UserInput from "./components/UserInput.jsx";
+import Results from './components/Results.jsx';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     <Header></Header>
     <UserInput></UserInput>
+    <Results></Results>
     </>
   )
 }
