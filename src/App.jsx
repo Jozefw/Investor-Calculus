@@ -3,12 +3,10 @@ import Header from "./components/Header.jsx";
 import UserInput from "./components/UserInput.jsx";
 import Results from './components/Results.jsx';
 
-
-
 function App() {
   const [userInputs,setUserInput] = useState({
-    initialInvest:100,
-    annualInvest:100,
+    initialInvestment:100,
+    annualInvestment:100,
     expectedReturn:6,
     duration:10
   });

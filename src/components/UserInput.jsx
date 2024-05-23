@@ -5,12 +5,12 @@ export default function UserInput({userInputChange,userInputObj}) {
             <div className="input-group">
                 <p>
                     <label>Enter Initial Investment</label>
-                    <input type='number' value={userInputObj.initialInvest} required onChange={(event)=>userInputChange('initialInvest',event.target.value)}></input>
+                    <input type='number' value={userInputObj.initialInvestment} required onChange={(event)=>userInputChange('initialInvest',event.target.value)}></input>
                 </p>
 
                 <p>
                     <label>Enter Annual Investment</label>
-                    <input type='number' value={userInputObj.annualInvest} onChange={(event)=>userInputChange('annualInvest',event.target.value)} required></input>
+                    <input type='number' value={userInputObj.annualInvestment} onChange={(event)=>userInputChange('annualInvest',event.target.value)} required></input>
                 </p>
             </div>
             <div className="input-group">
