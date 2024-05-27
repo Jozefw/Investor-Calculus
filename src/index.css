@@ -9,9 +9,11 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(#303b37, #1a1f1d);
+  /* background: radial-gradient(#303b37, #1a1f1d); */
   color: #e1eeeb;
   min-height: 100vh;
+  background-color: #0083c9;
+  background-image: url("assets/carbon-fibre.png");
 }
 
 #header {
@@ -35,8 +37,9 @@ body {
   padding: 1rem;
   max-width: 30rem;
   margin: 2rem auto;
-  border-radius: 4px;
-  background: linear-gradient(180deg, #307e6c, #2b996d);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #070a15, #1c2556);
+  box-shadow: 6px 5px 9px rgb(0 0 0 / 50%);
 }
 
 .input-group {

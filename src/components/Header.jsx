@@ -1,5 +1,5 @@
 import react from 'react'
-import logo from '../assets/investment-calculator-logo.png'
+import logo from '../assets/investment.png'
 export default function Header(){
     return(
         <header id="header">
